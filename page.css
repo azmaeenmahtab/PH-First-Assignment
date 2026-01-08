@@ -1,0 +1,48 @@
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+body {
+     
+    font-family: 'Inter', sans-serif;
+}
+
+#navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+#navimg {
+    height: 50px;
+    width: 150px;
+
+}
+
+#navlist {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+
+#navlist a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbtn {
+    background-color: #28814d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
