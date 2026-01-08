@@ -62,7 +62,7 @@ body {
     justify-content: center;
 }
 
-#herosection div{
+#herosectiondiv{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,7 +104,7 @@ body {
     color: white;
     max-width: 700px;
     text-align: center;
-    line-height: 1.5;
+    line-height: 2;
     margin-top: 0;
 }
 
