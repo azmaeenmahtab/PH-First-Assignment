@@ -1,12 +1,11 @@
-
 .inter {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
 }
 
 body {
-     margin: 0;
+    margin: 0;
     font-family: 'Inter', sans-serif;
 }
 
@@ -38,6 +37,11 @@ body {
 #navlist a {
     text-decoration: none;
     color: black;
+    transition: color 0.3s ease;
+}
+
+#navlist a:hover {
+    color: #28814d;
 }
 
 #navbtn {
@@ -48,11 +52,17 @@ body {
     border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#navbtn:hover {
+    background-color: #1f5f3a;
+    transform: scale(1.05);
 }
 
 /* hero section style form here  */
 
-#herosection{
+#herosection {
 
     background-image: url("assets/hero-bg.png");
     height: 100vh;
@@ -65,15 +75,15 @@ body {
     justify-content: center;
 }
 
-#herosectiondiv{
+#herosectiondiv {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    
+
 }
 
-#earlynowbtn{
+#earlynowbtn {
     display: flex;
     align-items: center;
 
@@ -85,9 +95,17 @@ body {
     border-radius: 20px;
     font-weight: 600;
     font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-#herosection h1{
+#earlynowbtn:hover {
+    background-color: #28814d;
+    color: white;
+    transform: scale(1.05);
+}
+
+#herosection h1 {
     font-size: 72px;
     font-weight: 700;
     color: white;
@@ -98,11 +116,11 @@ body {
 
 }
 
-#herosection h1 span{
+#herosection h1 span {
     color: #28814d;
 }
 
-#herosection p{
+#herosection p {
     font-size: 18px;
     color: white;
     max-width: 700px;
@@ -111,7 +129,7 @@ body {
     margin-top: 0;
 }
 
-#herobtncont{
+#herobtncont {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -120,7 +138,7 @@ body {
 
 }
 
-#greenbtn{
+#greenbtn {
     background-color: #28814d;
     color: white;
     border: none;
@@ -131,9 +149,15 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    transition: all 0.3s ease;
 }
 
-#transparentbtn{
+#greenbtn:hover {
+    background-color: #1f5f3a;
+    transform: scale(1.05);
+}
+
+#transparentbtn {
     background-color: transparent;
     color: white;
     border: 2px solid white;
@@ -144,12 +168,18 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    transition: all 0.3s ease;
+}
+
+#transparentbtn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
 }
 
 
 /* note sectionn */
 
-#notessection{
+#notessection {
     padding-top: 50px;
     background-color: #f6f6f7;
 }
@@ -161,7 +191,7 @@ body {
     text-align: center;
     margin: 0;
 } */
-#blackheading{
+#blackheading {
     color: black;
     font-size: 48px;
     font-weight: 700;
@@ -169,21 +199,21 @@ body {
     margin: 0;
 }
 
-#notesectiontextdiv p{
+#notesectiontextdiv p {
     color: #627382;
     text-align: center;
 }
 
-.graytext{
+.graytext {
     color: #627382;
 }
 
-#notecard{
+#notecard {
     padding: 20px;
     border: 1px solid;
 }
 
-#cardcontainer{
+#cardcontainer {
     display: flex;
     gap: 30px;
     justify-content: center;
@@ -193,11 +223,11 @@ body {
     margin-top: 40px;
 }
 
-.card{
+.card {
     padding: 60px 15px 10px 15px;
     /* border: 1px solid rgb(246, 244, 244); */
     /* box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1); */
-    
+
     border-radius: 10px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -207,36 +237,43 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
 }
 
-.cardimgdiv{
-     background-color: #F95555;
-     padding: 10px;
+.card:hover {
+    transform: translateY(10px);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cardimgdiv {
+    background-color: #F95555;
+    padding: 10px;
     width: fit-content;
     border-radius: 50%;
     width: 32px;
     height: 32px;
-    
-    
+
+
 }
 
-.card h4{
+.card h4 {
     margin-top: 20px;
     margin-bottom: 0px;
     font-size: 24px;
     font-weight: 600;
-    
+
 }
 
 
 /* second brain section */
 
-#secondbrainsection{
+#secondbrainsection {
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-#secondbrainsectiondiv{
+#secondbrainsectiondiv {
     padding-top: 50px;
     padding-bottom: 50px;
     max-width: 1300px;
@@ -247,17 +284,19 @@ body {
     align-items: center;
 }
 
-.greentext{
+.greentext {
     color: #28814d;
 }
-#blackheadingleft{
+
+#blackheadingleft {
     color: black;
     font-size: 48px;
     font-weight: 700;
     text-align: left;
     margin: 0;
 }
-#secondbrainsectiondiv ul{
+
+#secondbrainsectiondiv ul {
     padding-left: 0;
     display: flex;
     flex-direction: column;
@@ -265,22 +304,24 @@ body {
     padding-top: 20px;
 
 }
-#secondbrainsectiondiv li{
+
+#secondbrainsectiondiv li {
     list-style: none;
     display: flex;
     align-items: center;
     gap: 10px;
-    
+
 }
 
 /* think section */
 
-#thinksection{
-     
+#thinksection {
+
     padding-bottom: 70px;
-     
+
 }
-#thinksectiondiv{
+
+#thinksectiondiv {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -294,51 +335,51 @@ body {
     border-radius: 10px;
 }
 
-#thinkpara{
+#thinkpara {
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* footer div */
-#footerdiv{
+#footerdiv {
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
-    
-    
+
+
 }
 
-#footer p{
-    padding:30px 0px;
+#footer p {
+    padding: 30px 0px;
     margin: 0;
 }
 
-#footer{
+#footer {
     background-color: #001931;
     color: white;
-     text-align: center;
+    text-align: center;
 }
 
-#footerlogolinks{
+#footerlogolinks {
     display: flex;
     justify-content: space-between;
     align-items: left;
     text-align: left;
-    padding : 70px 0px;
+    padding: 70px 0px;
     border-bottom: .5px solid rgb(87, 91, 111);
- }
+}
 
-#footerlogo{
+#footerlogo {
     height: 60px;
     width: 140px;
 }
 
-#footerlogolinks p{
+#footerlogolinks p {
     padding: 0px 0px 10px 0px;
 }
 
-#footerlogolinks a img{
+#footerlogolinks a img {
     width: 20px;
     height: 20px;
     margin-right: 10px;
